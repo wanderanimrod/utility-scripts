@@ -1,0 +1,1 @@
+/Users/Nimrod/.bashrc
