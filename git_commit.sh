@@ -1,7 +1,7 @@
 #!/bin/bash
 
-STORY=$1
-PAIR=$2
+PAIR=$1
+STORY=$2
 MESSAGE=$3
 
 if [[ -z "${STORY}" ]]
@@ -29,4 +29,4 @@ then
     exit -1
 fi
 
-git commit -m "#${STORY} [nim${PAIR}] ${MESSAGE}"
+git commit -m "[nim${PAIR}] #${STORY} ${MESSAGE}"
