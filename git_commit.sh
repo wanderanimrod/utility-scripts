@@ -29,4 +29,4 @@ then
     exit -1
 fi
 
-git commit -m "[nim${PAIR}] #${STORY} ${MESSAGE}"
+git commit -m "[nim${PAIR}] [#${STORY}] ${MESSAGE}"
